@@ -17,14 +17,14 @@ namespace Delegates_And_Events
         {
             return x * y;
         }
-        static void Main(string[] args)
-        {
-            //MyDelegates myDelegates = new MyDelegates(Addition);//create object of Delegate Name
-            MyDelegates myDelegates = Addition; //create object of Delegate Name and Specify method Name
-            myDelegates += Multiply; //Multicasting Delegates += only one object and call method
-            Console.WriteLine($"Addition is:- {myDelegates(55, 5)}"); //Passing parameter and Print
-            Console.WriteLine($"Multiplication is:- {myDelegates(5, 5)}");
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    //MyDelegates myDelegates = new MyDelegates(Addition);//create object of Delegate Name
+        //    MyDelegates myDelegates = Addition; //create object of Delegate Name and Specify method Name
+        //    myDelegates += Multiply; //Multicasting Delegates += only one object and call method
+        //    Console.WriteLine($"Addition is:- {myDelegates(55, 5)}"); //Passing parameter and Print
+        //    Console.WriteLine($"Multiplication is:- {myDelegates(5, 5)}");
+        //    Console.ReadLine();
+        //}
     }
 }

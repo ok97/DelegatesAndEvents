@@ -323,6 +323,7 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
+
 # OpenCover UI analysis results
 OpenCover/
 
@@ -346,3 +347,4 @@ healthchecksdb
 Properties/
 App.config
 Generics.csproj
+Delegates.cs
